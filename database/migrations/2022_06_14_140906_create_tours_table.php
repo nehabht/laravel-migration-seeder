@@ -17,7 +17,7 @@ class CreateToursTable extends Migration
             $table->id();
             $table->string('place', 50);
             $table->string('period', 50);
-            $table->decimal('price', 4, 2);
+            $table->decimal('price', 8, 2);
             $table->text('description');
             $table->timestamps();
         });
