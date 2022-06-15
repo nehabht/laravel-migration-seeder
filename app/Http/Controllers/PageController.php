@@ -9,7 +9,7 @@ class PageController extends Controller
     public function index()
     {
         $tours = Tour::all();
-        dd($tours);
-        return view('home');
+        //dd($tours);
+        return view('home', compact('tours'));
     }
 }

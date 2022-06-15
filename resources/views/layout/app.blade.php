@@ -15,7 +15,7 @@
     <body>
             
             <header>
-                <h1>header</h1>
+                <h1 class="text-center my-4">Tours</h1>
             </header>
 
             <main>
@@ -23,7 +23,7 @@
             </main>
 
             <footer>  
-                <p>footer</p>
+
             </footer>
             
     </body>
